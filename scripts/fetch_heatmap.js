@@ -59,7 +59,7 @@ async function fetchHeatmap() {
       totalContributions: heatmapData.reduce((sum, day) => sum + day.count, 0)
     };
     
-    await fs.writeJSON(out, result, { spaces: 2 });
+    await fs.writeJSON(out, result);
     console.log(`Saved heatmap to ${out} (${heatmapData.length} items, ${result.totalContributions} total contributions)`);
   } catch (error) {
     console.error('Failed to fetch heatmap:', error.message);
