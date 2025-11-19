@@ -1,0 +1,52 @@
+name: Update profile data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch GitHub heatmap
+        env:
+          PROFILE_USERNAME: ${{ secrets.PROFILE_USERNAME || 'PaloMiku' }}
+          HEATMAP_FILE: data/heatmap.json
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm run fetch:heatmap
+
+      - name: Fetch Atom RSS -> JSON
+        env:
+          ATOM_URL: ${{ secrets.ATOM_URL || 'https://blog.sotkg.com/atom.xml' }}
+          RSS_FILE: data/blog.json
+        run: pnpm run fetch:rss
+
+      - name: Commit updated JSON files
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'github-actions'
+          author_email: 'actions@github.com'
+          message: 'chore: update heatmap & blog JSON [skip ci]'
+          add: 'data/*.json'
+
+      - name: Ensure Pages publishes from docs/
+        run: |
+          echo 'Ensure your repository Pages are set to use the /docs directory from main branch.'

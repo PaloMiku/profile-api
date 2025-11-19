@@ -1,0 +1,21 @@
+{
+  "name": "palo-miku-profile-data",
+  "version": "1.0.0",
+  "description": "Daily fetch: GitHub contributions heatmap and Atom RSS -> JSON",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "fetch:heatmap": "node scripts/fetch_heatmap.js",
+    "fetch:rss": "node scripts/fetch_rss.js",
+    "fetch:all": "npm run fetch:heatmap && npm run fetch:rss"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "fs-extra": "^11.1.1",
+    "node-fetch": "^3.3.1",
+    "xml2js": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

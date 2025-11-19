@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Profile Data API</title>
+</head>
+<body>
+<h1>Profile Data API</h1>
+
+<h2>API Endpoints</h2>
+<ul>
+<li><a href="/data/heatmap.json" target="_blank">/data/heatmap.json</a> - GitHub contributions heatmap</li>
+<li><a href="/data/blog.json" target="_blank">/data/blog.json</a> - Blog posts from RSS feed</li>
+</ul>
+
+<h2>Usage</h2>
+<pre><code>// JavaScript
+async function getProfileData() {
+  const [heatmap, blog] = await Promise.all([
+    fetch('/data/heatmap.json').then(r => r.json()),
+    fetch('/data/blog.json').then(r => r.json())
+  ]);
+  return { heatmap, blog };
+}
+
+// Response format
+{
+  "username": "PaloMiku",
+  "updatedAt": "2025-11-19T12:47:18.465Z",
+  "data": [
+    {"date": "2025-11-19", "count": 5},
+    {"date": "2025-11-18", "count": 0}
+  ],
+  "totalContributions": 97
+}</code></pre>
+
+<h2>Data Format</h2>
+<p><strong>heatmap.json:</strong> Daily GitHub contributions for past year</p>
+<p><strong>blog.json:</strong> Latest 10 blog posts with metadata</p>
+
+<h2>Update Schedule</h2>
+<p>Data updated daily at 8:00 AM (UTC+8) via GitHub Actions.</p>
+
+</body>
+</html>
