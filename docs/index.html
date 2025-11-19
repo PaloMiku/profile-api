@@ -2,29 +2,21 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Profile Data API</title>
+<title>个人数据 API</title>
 </head>
 <body>
-<h1>Profile Data API</h1>
+<h1>个人数据 API</h1>
 
-<h2>API Endpoints</h2>
+<h2>数据接口</h2>
 <ul>
-<li><a href="/data/heatmap.json" target="_blank">/data/heatmap.json</a> - GitHub contributions heatmap</li>
-<li><a href="/data/blog.json" target="_blank">/data/blog.json</a> - Blog posts from RSS feed</li>
+<li><a href="/data/heatmap.json" target="_blank">/data/heatmap.json</a> - GitHub 贡献热力图</li>
+<li><a href="/data/blog.json" target="_blank">/data/blog.json</a> - 博客文章数据</li>
 </ul>
 
-<h2>Usage</h2>
-<pre><code>// JavaScript
-async function getProfileData() {
-  const [heatmap, blog] = await Promise.all([
-    fetch('/data/heatmap.json').then(r => r.json()),
-    fetch('/data/blog.json').then(r => r.json())
-  ]);
-  return { heatmap, blog };
-}
+<h2>数据格式</h2>
 
-// Response format
-{
+<p><strong>heatmap.json:</strong></p>
+<pre>{
   "username": "PaloMiku",
   "updatedAt": "2025-11-19T12:47:18.465Z",
   "data": [
@@ -32,14 +24,29 @@ async function getProfileData() {
     {"date": "2025-11-18", "count": 0}
   ],
   "totalContributions": 97
-}</code></pre>
+}</pre>
 
-<h2>Data Format</h2>
-<p><strong>heatmap.json:</strong> Daily GitHub contributions for past year</p>
-<p><strong>blog.json:</strong> Latest 10 blog posts with metadata</p>
+<p><strong>blog.json:</strong></p>
+<pre>{
+  "feedUrl": "https://blog.sotkg.com/atom.xml",
+  "updatedAt": "2025-11-19T12:35:01.458Z",
+  "entries": [
+    {
+      "id": "https://blog.sotkg.com/2025/08/kde-customization",
+      "title": "我的 KDE Plasma 6 美化方案分享",
+      "link": "https://blog.sotkg.com/2025/08/kde-customization",
+      "updated": "2025-11-04T10:30:00.000Z",
+      "summary": "文章摘要"
+    }
+  ]
+}</pre>
 
-<h2>Update Schedule</h2>
-<p>Data updated daily at 8:00 AM (UTC+8) via GitHub Actions.</p>
+<h2>数据说明</h2>
+<p><strong>heatmap.json:</strong> 过去一年的 GitHub 每日贡献数据</p>
+<p><strong>blog.json:</strong> 最新的 10 篇博客文章信息</p>
+
+<h2>更新时间</h2>
+<p>数据每天 UTC+8 时间早上 8 点通过 GitHub Actions 自动更新。</p>
 
 </body>
 </html>
