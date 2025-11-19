@@ -1,6 +1,6 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-11-19T13:05:33.342Z",
+  "updatedAt": "2025-11-19T16:11:56.440Z",
   "entries": [
     {
       "id": "https://blog.sotkg.com/2025/11/fedora-cosmic-beta",
@@ -81,6 +81,166 @@
       "published": "2025-10-20T14:00:00.000Z",
       "updated": "2025-10-20T14:00:00.000Z",
       "summary": "本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/08/kde-customization",
+      "title": "我的 KDE Plasma 6 美化方案分享",
+      "link": "https://blog.sotkg.com/2025/08/kde-customization",
+      "published": "2025-08-27T21:30:00.000Z",
+      "updated": "2025-11-04T10:30:00.000Z",
+      "summary": "本文分享了作者将主力系统换至Fedora 43 KDE后的桌面美化方案：采用上下双面板布局，上方空面板配应用启动器、全局菜单等，下方图标任务管理器作Dock；引入Panel-colorizer插件，为上下面板分别设置ChromeOS透明与Translucent预设；主题选Fedora全局主题+Moe配色+Colloid图标，时钟用Redmi Clock插件，全套均可在KDE商店获取。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/06/sickly-days-linux-run",
+      "title": "《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复",
+      "link": "https://blog.sotkg.com/2025/06/sickly-days-linux-run",
+      "published": "2025-06-21T21:30:00.000Z",
+      "updated": "2025-06-21T21:30:00.000Z",
+      "summary": "文章记录了《痴情哥哥与病弱妹妹的乡间生活》Steam版在Linux/SteamDeck因Krkr2引擎兼容失败而无法启动的问题。\n修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES=\"d2d1.dll=n,b\" %command%。完成后游戏可正常运行。\n"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/06/self-fediverse-prepare",
+      "title": "自建一个 Fediverse 实例，我们需要准备什么？",
+      "link": "https://blog.sotkg.com/2025/06/self-fediverse-prepare",
+      "published": "2025-06-09T10:44:09.000Z",
+      "updated": "2025-06-09T13:00:00.000Z",
+      "summary": "本文介绍了自建Fediverse实例的完整准备清单：注册简短易记的域名，优选海外注册商并接入Cloudflare解析；根据程序选配服务器，轻量GotoSocial 1C1G起跳，Mastodon建议4C4G+NVMe与5Mbps上行；用Linux+Docker部署，德机性价比高；媒体文件走海外对象存储，小实例用Cloudflare R2免费额度，大数据量选Hetzner、Wasabi、Backblaze，注意流量防盗刷。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/06/decky-loader",
+      "title": "Decky Loader——Linux下 Steamdeck 和大屏幕模式的最佳伴侣",
+      "link": "https://blog.sotkg.com/2025/06/decky-loader",
+      "published": "2025-06-07T21:30:00.000Z",
+      "updated": "2025-06-07T21:30:00.000Z",
+      "summary": "本文介绍了 Decky Loader 在 Linux/SteamDeck 下的两种快速安装法：官方一键脚本（含中文版）与 OhMyDeck 手动方案，并给出启用开发者模式、CEF 调试、设密码、开终端等关键步骤，手柄玩家即刻升级大屏体验。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/lxgw-wenkai-web",
+      "title": "更换网站字体为霞鹜文楷屏幕阅读版（LXGW WenKai Screen）",
+      "link": "https://blog.sotkg.com/2025/05/lxgw-wenkai-web",
+      "published": "2025-05-28T10:24:26.000Z",
+      "updated": "2025-05-28T10:24:26.000Z",
+      "summary": "本文介绍了如何为网站全局替换开源“霞鹜文楷”字体，记录从选字、CDN引入到CSS调用的完整流程，分享LXGW WenKai Screen版针对屏幕阅读优化的1.7.0样式文件与font-family写法，附赠Zstatic CDN链接与缓存清除技巧，一步到位实现中文楷体美化的同时保障加载速度。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/clannad-zh-linux",
+      "title": "《Clannad》HD 官方中文版和 Full Voice 汉化版 Linux 运行",
+      "link": "https://blog.sotkg.com/2025/05/clannad-zh-linux",
+      "published": "2025-05-26T09:00:00.000Z",
+      "updated": "2025-05-26T09:00:00.000Z",
+      "summary": "本文介绍了《Clannad》HD官方中文版与Full Voice汉化版在Linux下的运行方案；本文记录了使用Proton 9.0-4即可双版本完美启动的实测过程，并对比引擎差异及存档兼容性；本文分享了老Galgame在Linux平台零补丁畅玩的经验，为同人及正版补票玩家提供一站式兼容层设置指南。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/koichoco-psp",
+      "title": "《恋爱与选举与巧克力》携带版试玩体验",
+      "link": "https://blog.sotkg.com/2025/05/koichoco-psp",
+      "published": "2025-05-24T00:20:00.000Z",
+      "updated": "2025-05-24T00:20:00.000Z",
+      "summary": "本文介绍了《恋爱与选举与巧克力》PSP携带版的试玩亮点：新增可攻略角色枝川希美全程语音、30张新CG及细节演出；记录了PC高清重制版“暴力拉伸”导致的千里眼距崩坏在携带版得到修复，人物表情更丰富；分享了用PPSSPP在Steam Deck流畅运行、获取简体汉化ISO的完整方案，并附配置与资源指引，助你随时品味这部“真·最佳版本”校园恋爱佳作。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/shr-misskey",
+      "title": "我又用了一段时间 Misskey，发现和 Sharkey 存在一些区别和不足",
+      "link": "https://blog.sotkg.com/2025/05/shr-misskey",
+      "published": "2025-05-22T03:30:00.000Z",
+      "updated": "2025-05-22T03:30:00.000Z",
+      "summary": "本文记录了作者重新体验 Misskey 后，相较 Sharkey 感受到的不足：缺少直接编辑、单帖私密化、注册审批；并列出 ListenBrainz 集成、Mastodon API 兼容、UI 风格等差异，倾向继续使用 Sharkey。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/misskey-sidebar",
+      "title": "Misskey/Sharkey 工具栏：强大且精心的小功能",
+      "link": "https://blog.sotkg.com/2025/05/misskey-sidebar",
+      "published": "2025-05-20T03:30:00.000Z",
+      "updated": "2025-05-20T03:30:00.000Z",
+      "summary": "本文分享了 Misskey/Sharkey 侧边栏小工具的完整功能清单，涵盖便签、RSS、时钟、活动、服务器指标、AiScript 控制台等 30+ 组件，可自由拖拽、调高度、设透明，即刻把桌面版 Fediverse 变成你的个性化信息仪表盘。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/fediverse",
+      "title": "浅谈个人与 Fediverse 的过往历史和现状",
+      "link": "https://blog.sotkg.com/2025/05/fediverse",
+      "published": "2025-05-20T00:30:00.000Z",
+      "updated": "2025-05-20T00:30:00.000Z",
+      "summary": "本文介绍了作者2023年踏入Fediverse的完整历程，从Firefish、纷语驿站到现居Sharkey实例Circlari；本文记录了Misskey、Firefish、Sharkey三大程序的特点与兴衰，并对比Mastodon生态；本文分享了联邦宇宙去中心化、低门槛、跨实例互通的优势，也坦言用户暴涨带来的治理挑战，为新人提供选型与避坑参考。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/maitetsu-video-fix",
+      "title": "《爱上火车》在 Linux 下的视频播放修复",
+      "link": "https://blog.sotkg.com/2025/05/maitetsu-video-fix",
+      "published": "2025-05-19T10:30:00.000Z",
+      "updated": "2025-05-19T10:30:00.000Z",
+      "summary": "本文介绍了《爱上火车》Linux Proton 环境视频播放修复方案，记录从黑屏卡死到正常播放的排查过程，分享用 Protontricks 补 DirectShow+WMP9 的完整命令与 Flatseal 权限配置，提供 Arch/Flatpak 双安装路径与镜像加速技巧，一站式解决 Steam 中文版动画无法播放痛点，助力 Linux 玩家零切换畅玩 Galgame。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/05/gal-up",
+      "title": "旮沓给木太好玩辣——2025年上半Gal历程个人总结",
+      "link": "https://blog.sotkg.com/2025/05/gal-up",
+      "published": "2025-05-18T16:30:00.000Z",
+      "updated": "2025-05-18T16:30:00.000Z",
+      "summary": "本文介绍了作者2025年上半年7部Galgame入坑之旅：以《爱上火车Last Run!!》打开大门，继通关《苍之彼方的四重奏》《魔女的夜宴》《恋爱与选举与巧克力》《拔作岛》后，终被《Summer Pockets REFLECTION BLUE》封神；本文记录了各作剧情亮点、系统特色与角色喜好，并分享了“纯爱、一次性通线、戴耳机追求沉浸”的个人游玩准则，为同好提供参考。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2025/01/arch-aur-kazumi",
+      "title": "为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包",
+      "link": "https://blog.sotkg.com/2025/01/arch-aur-kazumi",
+      "published": "2025-01-24T10:24:26.000Z",
+      "updated": "2025-01-24T10:24:26.000Z",
+      "summary": "本文介绍了作者为 Flutter 番剧采集器 Kazumi 全新打包并提交 AUR 的全过程；本文记录了从痛点分析、PKGBUILD 编写到 GPG 密钥配置、PR 合并的首次打包细节；本文分享了在 Arch KDE 环境避开 Flathub 臃肿依赖、一键 `yay -S kazumi` 装机的实用方案，方便同好快速享受弹幕追番。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/12/break-change-2024",
+      "title": "破坏型迁移：站点反复横跳与稳定工作",
+      "link": "https://blog.sotkg.com/2024/12/break-change-2024",
+      "published": "2024-12-07T10:24:26.000Z",
+      "updated": "2024-12-07T10:24:26.000Z",
+      "summary": "本文记录了博主 PaloMiku 将站点整体迁移至 blog 子域名、丢弃评论与旧文、改用 Huawei Cloud EulerOS 的全过程；本文分享了“破坏型迁移”背后的动机——架构试错、域名续费到 2026-09、服务器同步续费至 2026-12，从而锁定近两年零意外停机；本文承诺在 2026 年 9 月 18 日前不再变动域名与服务器，为读者提供可预期的长期稳定访问。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/12/oyiso-tianligpt",
+      "title": "为Oyiso主题引入TianliGPT摘要",
+      "link": "https://blog.sotkg.com/2024/12/oyiso-tianligpt",
+      "published": "2024-12-07T10:24:26.000Z",
+      "updated": "2024-12-07T10:24:26.000Z",
+      "summary": "本文介绍了如何为 WordPress Oyiso 主题一键接入 TianliGPT 智能摘要；本文记录了从安装 PostChat 插件、配置 Key，到插入前端代码、关闭对话浮窗的完整流程；让文章页自动生成摘要，无需人工干预，兼容大陆网络，提升阅读体验与 SEO。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/10/shiroi-docker-deployment",
+      "title": "GitHub Action 构建 Shiroi Docker 镜像",
+      "link": "https://blog.sotkg.com/2024/10/shiroi-docker-deployment",
+      "published": "2024-10-21T11:24:26.000Z",
+      "updated": "2025-06-02T14:00:00.000Z",
+      "summary": "本文介绍了如何利用 GitHub Actions 为 Mix-Space 的闭源前端 Shiroi 构建 Docker 镜像并推送至 GitHub Packages，解决低配服务器本地构建内存不足的问题。本文记录了完整 Workflow 配置，包括定时触发、哈希去重、登录 ghcr.io、构建与推送 latest 镜像等关键步骤，并说明在 1Panel 或命令行拉取私有镜像的方法。本文分享了避免在服务器安装 Node、PM2 等依赖、无需暴露 SSH 密钥即可实现安全拉取与更新的实践经验，适合希望将 Shiroi 容器化部署到个人服务器的用户。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/10/write-1panel-app",
+      "title": "编写1Panel应用商店第三方程序",
+      "link": "https://blog.sotkg.com/2024/10/write-1panel-app",
+      "published": "2024-10-17T11:24:26.000Z",
+      "updated": "2024-10-17T11:24:26.000Z",
+      "summary": "本文介绍了如何为 1Panel 服务器面板编写并提交自定义应用包；本文记录了从目录结构、Logo、应用声明文件、版本参数表单，到符合规范的 docker-compose.yml 与本地测试的完整流程；本文分享了避开官方高门槛、直接 PR 第三方商店仓库的快捷路线，帮助读者把任意已容器化的开源项目一键搬进 1Panel 应用商店，实现图形化秒装。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/09/1panel-appstore-refused",
+      "title": "记一次被1Panel官方应用商店拒绝合并",
+      "link": "https://blog.sotkg.com/2024/09/1panel-appstore-refused",
+      "published": "2024-09-07T11:24:26.000Z",
+      "updated": "2025-04-11T10:00:00.000Z",
+      "summary": "本文介绍了向 1Panel 官方应用商店提交 Ghost 博客应用却被以“与 Halo 功能重叠”为由拒绝的经过，指出官方做法有排斥竞品之嫌，易挫伤社区热情；记录了本地撰写配置文件、一键部署数据库的完整测试流程与体验；分享了作者对第三方商店仓库质量参差、手动启动繁琐的不满，并计划自建整洁仓库的后续思路，为同类 Docker 应用上架与生态选择提供参考。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/08/docker-deploy-outline",
+      "title": "Docker部署Outline并使用Github作为OAuth服务",
+      "link": "https://blog.sotkg.com/2024/08/docker-deploy-outline",
+      "published": "2024-08-07T11:24:26.000Z",
+      "updated": "2024-08-07T15:30:53.000Z",
+      "summary": "本文介绍了如何用 Docker Compose 一键部署企业级知识库 Outline，并接入 GitHub OAuth 登录。全文围绕“Minio 对象存储 → GitHub OAuth 注册 → Outline 多容器编排 → Nginx 反向代理”四大步骤展开，记录了生产级环境变量、PostgreSQL/Redis 持久化、S3 上传 ACL、速率限制与中文界面等关键配置细节，分享了本地测试与 HTTPS 外网访问的踩坑经验，为个人或团队快速搭建安全、私有的协作 wiki 提供完整可复制的指南。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2024/03/takagi",
+      "title": "君と光：我与高木圈的故事",
+      "link": "https://blog.sotkg.com/2024/03/takagi",
+      "published": "2024-03-07T11:24:26.000Z",
+      "updated": "2024-03-08T15:30:53.000Z",
+      "summary": "本文记录了作者于2022年暑假因B站一条“西片太太开车预警”视频入坑《擅长捉弄的高木同学》，先追第二季再补第一季，瞬间被高糖日常俘获的草率契机；分享了随后潜行高木QQ频道、不满百度网盘限速、自学建站并于2022年10月上线直链资源站，又在网友牧丰帮助下完成初期搬运的幕后故事；同时回顾2023年末牵头成立“木创社”GitHub组织，共建高木Wiki与Fan社区，结识南栀、WaterApple、Ice Year等伙伴的快乐时光；最后借Ice Year《君と光》一文，感慨漫画于2023年10月12日完结后“一期一会”的珍贵，铭记“只要映出与你共度的光”便足够温暖。"
     }
   ]
 }

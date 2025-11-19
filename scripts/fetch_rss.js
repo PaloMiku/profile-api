@@ -26,10 +26,9 @@ async function fetchRss() {
     };
   });
   
-  // 按发布时间排序，取最近10篇文章
+  // 按发布时间排序，取所有文章
   const entries = allEntries
-    .sort((a, b) => new Date(b.published) - new Date(a.published))
-    .slice(0, 10);
+    .sort((a, b) => new Date(b.published) - new Date(a.published));
 
   await fs.ensureDir(path.dirname(out));
   const obj = { feedUrl, updatedAt: new Date().toISOString(), entries };
