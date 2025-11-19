@@ -1,76 +1,86 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-11-19T13:02:23.136Z",
+  "updatedAt": "2025-11-19T13:05:33.342Z",
   "entries": [
     {
-      "id": "https://blog.sotkg.com/2025/08/kde-customization",
-      "title": "我的 KDE Plasma 6 美化方案分享",
-      "link": "https://blog.sotkg.com/2025/08/kde-customization",
-      "updated": "2025-11-04T10:30:00.000Z",
-      "summary": "本文分享了作者将主力系统换至Fedora 43 KDE后的桌面美化方案：采用上下双面板布局，上方空面板配应用启动器、全局菜单等，下方图标任务管理器作Dock；引入Panel-colorizer插件，为上下面板分别设置ChromeOS透明与Translucent预设；主题选Fedora全局主题+Moe配色+Colloid图标，时钟用Redmi Clock插件，全套均可在KDE商店获取。"
+      "id": "https://blog.sotkg.com/2025/11/fedora-cosmic-beta",
+      "title": "Fedora Cosmic desktop Beta 一日游",
+      "link": "https://blog.sotkg.com/2025/11/fedora-cosmic-beta",
+      "published": "2025-11-13T12:00:00.000Z",
+      "updated": "2025-11-13T12:00:00.000Z",
+      "summary": "Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install \"cosmic-desktop\" 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。"
     },
     {
-      "id": "https://blog.sotkg.com/2025/06/self-fediverse-prepare",
-      "title": "自建一个 Fediverse 实例，我们需要准备什么？",
-      "link": "https://blog.sotkg.com/2025/06/self-fediverse-prepare",
-      "updated": "2025-06-09T13:00:00.000Z",
-      "summary": "本文介绍了自建Fediverse实例的完整准备清单：注册简短易记的域名，优选海外注册商并接入Cloudflare解析；根据程序选配服务器，轻量GotoSocial 1C1G起跳，Mastodon建议4C4G+NVMe与5Mbps上行；用Linux+Docker部署，德机性价比高；媒体文件走海外对象存储，小实例用Cloudflare R2免费额度，大数据量选Hetzner、Wasabi、Backblaze，注意流量防盗刷。"
+      "id": "https://blog.sotkg.com/2025/11/blog-1th-note",
+      "title": "博客～真周年随笔（大概是一周年）",
+      "link": "https://blog.sotkg.com/2025/11/blog-1th-note",
+      "published": "2025-11-04T00:00:00.000Z",
+      "updated": "2025-11-04T00:00:00.000Z",
+      "summary": "2022 至今，作者 10 余次更换博客系统与域名，从 WordPress、Hexo、Mix Space 到最终定格 Nuxt 4 静态，并借备案、Galgame 与 Fediverse 长文实现稳定产出。文章梳理技术得失，自省“不忘初心”，立志继续以前端与运维学习为驱动力记录成长。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/10/shiroi-docker-deployment",
-      "title": "GitHub Action 构建 Shiroi Docker 镜像",
-      "link": "https://blog.sotkg.com/2024/10/shiroi-docker-deployment",
-      "updated": "2025-06-02T14:00:00.000Z",
-      "summary": "本文介绍了如何利用 GitHub Actions 为 Mix-Space 的闭源前端 Shiroi 构建 Docker 镜像并推送至 GitHub Packages，解决低配服务器本地构建内存不足的问题。本文记录了完整 Workflow 配置，包括定时触发、哈希去重、登录 ghcr.io、构建与推送 latest 镜像等关键步骤，并说明在 1Panel 或命令行拉取私有镜像的方法。本文分享了避免在服务器安装 Node、PM2 等依赖、无需暴露 SSH 密钥即可实现安全拉取与更新的实践经验，适合希望将 Shiroi 容器化部署到个人服务器的用户。"
+      "id": "https://blog.sotkg.com/2025/10/rust-waline-deploy",
+      "title": "Waline-Mini 部署体验：基于 Rust 的 Waline 评论系统？",
+      "link": "https://blog.sotkg.com/2025/10/rust-waline-deploy",
+      "published": "2025-10-24T19:00:00.000Z",
+      "updated": "2025-10-24T19:00:00.000Z",
+      "summary": "本文介绍了作者因 GitHub 上的 waline-mini 项目而产生的惊喜与实测过程。作为一款使用 Rust 重写的 Waline 评论系统，waline-mini 据称内存占用仅为 Node.js 原版的 1/25（约 5.5MB）。文章记录了作者通过 Zeabur 平台使用 Docker 快速部署的体验：配置简洁、支持 SQLite、默认监听 8360 端口，首个注册账户即成为管理员。实测后台 UI 与原版高度一致，平均内存仅 3.48 MB，验证了 Rust 带来的极致轻量，适合对资源占用敏感的站点。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/09/1panel-appstore-refused",
-      "title": "记一次被1Panel官方应用商店拒绝合并",
-      "link": "https://blog.sotkg.com/2024/09/1panel-appstore-refused",
-      "updated": "2025-04-11T10:00:00.000Z",
-      "summary": "本文介绍了向 1Panel 官方应用商店提交 Ghost 博客应用却被以“与 Halo 功能重叠”为由拒绝的经过，指出官方做法有排斥竞品之嫌，易挫伤社区热情；记录了本地撰写配置文件、一键部署数据库的完整测试流程与体验；分享了作者对第三方商店仓库质量参差、手动启动繁琐的不满，并计划自建整洁仓库的后续思路，为同类 Docker 应用上架与生态选择提供参考。"
+      "id": "https://blog.sotkg.com/2025/10/nukitashi-gv-end",
+      "title": "迟来的个人对《拔作岛》第一部游戏动漫杂谈",
+      "link": "https://blog.sotkg.com/2025/10/nukitashi-gv-end",
+      "published": "2025-10-24T18:00:00.000Z",
+      "updated": "2025-10-24T18:00:00.000Z",
+      "summary": "本文介绍了作者通关《拔作岛》第一部的完整体验与对比感受。作品以“童贞保卫战”为表，热血反权为里，四条女主线风格迥异：奈奈濑线甜虐交织却平淡收束；雏见线母子感拉满，结局圆满；美岬线脑洞炸裂，被戏称“离神最近”；文乃真女主线通宵燃爆。动画化出圈后大幅魔改，奈奈濑逆袭成最大赢家，游戏党先被“骗杀”后获慰藉，作者感叹 Qruppo 编剧精神状态成谜，并提醒云观众慎入。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/08/docker-deploy-outline",
-      "title": "Docker部署Outline并使用Github作为OAuth服务",
-      "link": "https://blog.sotkg.com/2024/08/docker-deploy-outline",
-      "updated": "2024-08-07T15:30:53.000Z",
-      "summary": "本文介绍了如何用 Docker Compose 一键部署企业级知识库 Outline，并接入 GitHub OAuth 登录。全文围绕“Minio 对象存储 → GitHub OAuth 注册 → Outline 多容器编排 → Nginx 反向代理”四大步骤展开，记录了生产级环境变量、PostgreSQL/Redis 持久化、S3 上传 ACL、速率限制与中文界面等关键配置细节，分享了本地测试与 HTTPS 外网访问的踩坑经验，为个人或团队快速搭建安全、私有的协作 wiki 提供完整可复制的指南。"
+      "id": "https://blog.sotkg.com/2025/10/otterwiki-deploy",
+      "title": "OtterWiki 部署：基于 Python 的轻量知识库系统",
+      "link": "https://blog.sotkg.com/2025/10/otterwiki-deploy",
+      "published": "2025-10-24T14:00:00.000Z",
+      "updated": "2025-10-24T14:00:00.000Z",
+      "summary": "本文介绍了轻量级知识库系统 OtterWiki 的完整部署流程。系统基于 Python Flask 开发，采用 Markdown 语法，支持 Git 协议管理内容，最低仅需 100MiB 内存。部署步骤包括：使用一键脚本安装 Docker，通过官方仓库安装 Caddy 并配置自动 HTTPS 反向代理，创建专用目录后编写 docker-compose.yml 启动服务，默认监听 8080 端口。首次注册账户将自动获得管理员权限，适合资源有限的个人或小团队快速搭建私有 Wiki。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/03/takagi",
-      "title": "君と光：我与高木圈的故事",
-      "link": "https://blog.sotkg.com/2024/03/takagi",
-      "updated": "2024-03-08T15:30:53.000Z",
-      "summary": "本文记录了作者于2022年暑假因B站一条“西片太太开车预警”视频入坑《擅长捉弄的高木同学》，先追第二季再补第一季，瞬间被高糖日常俘获的草率契机；分享了随后潜行高木QQ频道、不满百度网盘限速、自学建站并于2022年10月上线直链资源站，又在网友牧丰帮助下完成初期搬运的幕后故事；同时回顾2023年末牵头成立“木创社”GitHub组织，共建高木Wiki与Fan社区，结识南栀、WaterApple、Ice Year等伙伴的快乐时光；最后借Ice Year《君と光》一文，感慨漫画于2023年10月12日完结后“一期一会”的珍贵，铭记“只要映出与你共度的光”便足够温暖。"
+      "id": "https://blog.sotkg.com/2025/10/misskey-fediverse-deploy",
+      "title": "Misskey 部署：新一代联邦星际微博平台",
+      "link": "https://blog.sotkg.com/2025/10/misskey-fediverse-deploy",
+      "published": "2025-10-23T21:00:00.000Z",
+      "updated": "2025-10-23T21:00:00.000Z",
+      "summary": "本文介绍了如何在单台服务器上全量部署联邦宇宙社交平台 Misskey 及其配套组件。文章从准备阶段开始，建议使用至少 2 核 4G 的服务器，并强调部署后不可更换域名。接着详细说明了安装 Docker、Caddy 反向代理的步骤，包括自动 HTTPS 证书的申请与配置。然后逐步指导获取 Misskey 源码、配置数据库（PostgreSQL 与 Redis）、设置全文搜索（使用 sqlPgroonga）以及调整 Docker Compose 文件。最后，通过构建镜像、初始化数据库并启动容器，完成 Misskey 的部署，用户可通过域名访问初始化页面。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/10/write-1panel-app",
-      "title": "编写1Panel应用商店第三方程序",
-      "link": "https://blog.sotkg.com/2024/10/write-1panel-app",
-      "updated": "2024-10-17T11:24:26.000Z",
-      "summary": "本文介绍了如何为 1Panel 服务器面板编写并提交自定义应用包；本文记录了从目录结构、Logo、应用声明文件、版本参数表单，到符合规范的 docker-compose.yml 与本地测试的完整流程；本文分享了避开官方高门槛、直接 PR 第三方商店仓库的快捷路线，帮助读者把任意已容器化的开源项目一键搬进 1Panel 应用商店，实现图形化秒装。"
+      "id": "https://blog.sotkg.com/2025/10/affine-deploy",
+      "title": "Affine 部署：自托管类 Notion 知识库系统",
+      "link": "https://blog.sotkg.com/2025/10/affine-deploy",
+      "published": "2025-10-22T21:00:00.000Z",
+      "updated": "2025-10-22T21:00:00.000Z",
+      "summary": "本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/12/break-change-2024",
-      "title": "破坏型迁移：站点反复横跳与稳定工作",
-      "link": "https://blog.sotkg.com/2024/12/break-change-2024",
-      "updated": "2024-12-07T10:24:26.000Z",
-      "summary": "本文记录了博主 PaloMiku 将站点整体迁移至 blog 子域名、丢弃评论与旧文、改用 Huawei Cloud EulerOS 的全过程；本文分享了“破坏型迁移”背后的动机——架构试错、域名续费到 2026-09、服务器同步续费至 2026-12，从而锁定近两年零意外停机；本文承诺在 2026 年 9 月 18 日前不再变动域名与服务器，为读者提供可预期的长期稳定访问。"
+      "id": "https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy",
+      "title": "Lemmy 部署：Rust Fediverse 社区系统",
+      "link": "https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy",
+      "published": "2025-10-21T22:00:00.000Z",
+      "updated": "2025-10-21T22:00:00.000Z",
+      "summary": "本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。"
     },
     {
-      "id": "https://blog.sotkg.com/2024/12/oyiso-tianligpt",
-      "title": "为Oyiso主题引入TianliGPT摘要",
-      "link": "https://blog.sotkg.com/2024/12/oyiso-tianligpt",
-      "updated": "2024-12-07T10:24:26.000Z",
-      "summary": "本文介绍了如何为 WordPress Oyiso 主题一键接入 TianliGPT 智能摘要；本文记录了从安装 PostChat 插件、配置 Key，到插入前端代码、关闭对话浮窗的完整流程；让文章页自动生成摘要，无需人工干预，兼容大陆网络，提升阅读体验与 SEO。"
+      "id": "https://blog.sotkg.com/2025/10/fnos-vps-started",
+      "title": "大盘鸡做 NAS？FnOS 个人 VPS 部署体验",
+      "link": "https://blog.sotkg.com/2025/10/fnos-vps-started",
+      "published": "2025-10-20T21:00:00.000Z",
+      "updated": "2025-10-20T21:00:00.000Z",
+      "summary": "本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。"
     },
     {
-      "id": "https://blog.sotkg.com/2025/01/arch-aur-kazumi",
-      "title": "为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包",
-      "link": "https://blog.sotkg.com/2025/01/arch-aur-kazumi",
-      "updated": "2025-01-24T10:24:26.000Z",
-      "summary": "本文介绍了作者为 Flutter 番剧采集器 Kazumi 全新打包并提交 AUR 的全过程；本文记录了从痛点分析、PKGBUILD 编写到 GPG 密钥配置、PR 合并的首次打包细节；本文分享了在 Arch KDE 环境避开 Flathub 臃肿依赖、一键 `yay -S kazumi` 装机的实用方案，方便同好快速享受弹幕追番。"
+      "id": "https://blog.sotkg.com/2025/10/clarity-resource-list",
+      "title": "为 Clarity 主题增加 ResourceList 资源列表组件",
+      "link": "https://blog.sotkg.com/2025/10/clarity-resource-list",
+      "published": "2025-10-20T14:00:00.000Z",
+      "updated": "2025-10-20T14:00:00.000Z",
+      "summary": "本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。"
     }
   ]
 }

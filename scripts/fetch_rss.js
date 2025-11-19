@@ -20,13 +20,16 @@ async function fetchRss() {
       id: e.id || null,
       title: e.title && e.title._ ? e.title._ : e.title,
       link: link,
+      published: e.published || e.updated || null,
       updated: e.updated || e.published || null,
       summary: e.summary || e.content || null
     };
   });
   
-  // 只取最近10篇文章
-  const entries = allEntries.slice(0, 10);
+  // 按发布时间排序，取最近10篇文章
+  const entries = allEntries
+    .sort((a, b) => new Date(b.published) - new Date(a.published))
+    .slice(0, 10);
 
   await fs.ensureDir(path.dirname(out));
   const obj = { feedUrl, updatedAt: new Date().toISOString(), entries };
