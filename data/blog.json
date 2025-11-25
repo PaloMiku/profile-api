@@ -1,7 +1,15 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-11-24T00:51:41.567Z",
+  "updatedAt": "2025-11-25T00:46:01.602Z",
   "entries": [
+    {
+      "id": "https://blog.sotkg.com/2025/11/riddle-joker",
+      "title": "Riddle Joker：剧情不足，人设也不足",
+      "link": "https://blog.sotkg.com/2025/11/riddle-joker",
+      "published": "2025-11-24T13:00:00.000Z",
+      "updated": "2025-11-24T13:00:00.000Z",
+      "summary": "《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 > 在原七海 > 三司绫濑 > 二条院羽月 > 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。"
+    },
     {
       "id": "https://blog.sotkg.com/2025/11/cachyos-handheld-chinese-input",
       "title": "在 CachyOS Handheld 下恢复 Steam Input 中文输入",
