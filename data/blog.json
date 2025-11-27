@@ -1,7 +1,15 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-11-26T00:47:10.745Z",
+  "updatedAt": "2025-11-27T00:46:15.038Z",
   "entries": [
+    {
+      "id": "https://blog.sotkg.com/2025/11/piece-hy1",
+      "title": "随笔：逝去的一段时光",
+      "link": "https://blog.sotkg.com/2025/11/piece-hy1",
+      "published": "2025-11-26T21:00:00.000Z",
+      "updated": "2025-11-26T21:00:00.000Z",
+      "summary": "本文主要讲述了作者与高中同学因共同喜爱动漫《擅长捉弄的高木同学》而逐渐熟络起来的故事。文章回忆了两人在高中时期因为一部动漫作品建立起深厚友谊的经历，以及后来一起熬夜观看高木剧场版的美好时光。尽管现在各自上了大学，分散各地，但他们依然保持着这份珍贵的友情，偶尔相聚时还能找回当年那份纯真的快乐。"
+    },
     {
       "id": "https://blog.sotkg.com/2025/11/riddle-joker",
       "title": "Riddle Joker：剧情不足，人设也不足",
