@@ -1,7 +1,15 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-12-04T00:48:48.872Z",
+  "updatedAt": "2025-12-05T00:49:44.774Z",
   "entries": [
+    {
+      "id": "https://blog.sotkg.com/2025/12/oss-prepare-list",
+      "title": "国内外主流对象存储价格对比",
+      "link": "https://blog.sotkg.com/2025/12/oss-prepare-list",
+      "published": "2025-12-04T14:00:00.000Z",
+      "updated": "2025-12-04T14:00:00.000Z",
+      "summary": "全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。"
+    },
     {
       "id": "https://blog.sotkg.com/2025/11/piece-hy1",
       "title": "随笔：逝去的一段时光",
