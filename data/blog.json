@@ -1,7 +1,15 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-12-11T00:51:44.147Z",
+  "updatedAt": "2025-12-12T00:50:57.026Z",
   "entries": [
+    {
+      "id": "https://blog.sotkg.com/2025/12/love-love-school-linux-chinese",
+      "title": "Love Love School Days 在 Linux 下游戏汉化补丁安装使用",
+      "link": "https://blog.sotkg.com/2025/12/love-love-school-linux-chinese",
+      "published": "2025-12-11T20:00:00.000Z",
+      "updated": "2025-12-11T20:00:00.000Z",
+      "summary": "《Love Love School Days》是一款发行于2023年的 Unity 游戏，本文介绍了在 Linux 下安装和使用其汉化补丁的方法。 该补丁基于 BepInEx 和 Reipatcher 制作，适用于使用 Proton 兼容层运行的 Windows 游戏。文章详细说明了通过 Protontricks 配置 DLL 转发以确保补丁正常工作的方法。"
+    },
     {
       "id": "https://blog.sotkg.com/2025/12/fedora-silverblue-install-and-immutable-future",
       "title": "Fedora Silverblue 安装记录和不可变 Linux 个人杂谈",
