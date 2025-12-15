@@ -1,13 +1,13 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2025-12-14T00:55:06.224Z",
+  "updatedAt": "2025-12-15T00:53:28.015Z",
   "entries": [
     {
       "id": "https://blog.sotkg.com/2025/12/love-love-school-linux-chinese",
       "title": "Love Love School Days 在 Linux 下游戏汉化补丁安装使用",
       "link": "https://blog.sotkg.com/2025/12/love-love-school-linux-chinese",
       "published": "2025-12-11T20:00:00.000Z",
-      "updated": "2025-12-11T20:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "《Love Love School Days》是一款发行于2023年的 Unity 游戏，本文介绍了在 Linux 下安装和使用其汉化补丁的方法。 该补丁基于 BepInEx 和 Reipatcher 制作，适用于使用 Proton 兼容层运行的 Windows 游戏。文章详细说明了通过 Protontricks 配置 DLL 转发以确保补丁正常工作的方法。"
     },
     {
@@ -15,7 +15,7 @@
       "title": "Fedora Silverblue 安装记录和不可变 Linux 个人杂谈",
       "link": "https://blog.sotkg.com/2025/12/fedora-silverblue-install-and-immutable-future",
       "published": "2025-12-09T21:00:00.000Z",
-      "updated": "2025-12-09T21:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文记录了作者由 Steam Deck 上的 Bazzite 体验延伸，深入探索 Fedora Silverblue 这一原子化不可变发行版的使用心得。文章首先提供了详细的“入坑指南”，涵盖从镜像刻录、系统安装到 Flathub 配置及 GNOME 扩展推荐的全流程，并总结出“优先 Flatpak、次选 Distrobox 容器、最后才用 rpm-ostree 叠加”的软件管理逻辑。\n\n在技术探讨部分，作者生动地解析了不可变系统的核心优势。不同于传统的 A/B 分区，Silverblue 利用类似 Git 的 ostree 机制实现了版本控制与高效存储。文章指出，不可变系统并非剥夺控制权，而是通过锁定系统核心、解耦应用层，有效剥夺了用户“搞坏系统”的风险。结合 OCI 容器镜像技术，用户甚至可以像写代码一样“定义”自己的操作系统。这种极度稳定且易于维护的形态，极有可能是 Linux 桌面的未来主流。\n"
     },
     {
@@ -23,7 +23,7 @@
       "title": "国内外主流对象存储价格对比",
       "link": "https://blog.sotkg.com/2025/12/oss-prepare-list",
       "published": "2025-12-04T14:00:00.000Z",
-      "updated": "2025-12-04T14:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "全面对比腾讯云、阿里云、华为云、七牛云等国内及 Cloudflare、Blackblaze 等海外对象存储服务商，以 100GB 存储和 100GB 流量为基准，整理资源包定价、免费额度、超额计费规则，帮助你选择最具性价比的 OSS 方案。"
     },
     {
@@ -31,7 +31,7 @@
       "title": "随笔：逝去的一段时光",
       "link": "https://blog.sotkg.com/2025/11/piece-hy1",
       "published": "2025-11-26T21:00:00.000Z",
-      "updated": "2025-11-26T21:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文主要讲述了作者与高中同学因共同喜爱动漫《擅长捉弄的高木同学》而逐渐熟络起来的故事。文章回忆了两人在高中时期因为一部动漫作品建立起深厚友谊的经历，以及后来一起熬夜观看高木剧场版的美好时光。尽管现在各自上了大学，分散各地，但他们依然保持着这份珍贵的友情，偶尔相聚时还能找回当年那份纯真的快乐。"
     },
     {
@@ -39,7 +39,7 @@
       "title": "Riddle Joker：剧情不足，人设也不足",
       "link": "https://blog.sotkg.com/2025/11/riddle-joker",
       "published": "2025-11-24T13:00:00.000Z",
-      "updated": "2025-11-24T13:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "《Riddle Joker》是柚子社2018年发布的第十部作品，以超能力为主题。作者在游玩后感到略微失望，认为剧情和人物设定存在不足。游戏采用4+1女主制，作者按照个人喜好排序为：式部茉优 > 在原七海 > 三司绫濑 > 二条院羽月 > 壬生千咲。虽然整体表现不尽如人意，但作为轻松娱乐向作品仍有一定价值，尤其在情绪舒缓方面发挥了作用。"
     },
     {
@@ -47,7 +47,7 @@
       "title": "在 CachyOS Handheld 下恢复 Steam Input 中文输入",
       "link": "https://blog.sotkg.com/2025/11/cachyos-handheld-chinese-input",
       "published": "2025-11-23T17:00:00.000Z",
-      "updated": "2025-11-23T17:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了在 CachyOS Handheld 系统上恢复 Steam Input 中文输入的解决方案。主要步骤包括安装 `ibus`、`ibus-pinyin` 和 `ibus-anthy` 输入法组件，修改 `/usr/share/gamescope-session-plus/gamescope-session-plus` 配置文件，并降级 `libxkbcommon` 组件至 1.11.0 版本以解决中文输入显示为数字的问题。"
     },
     {
@@ -55,7 +55,7 @@
       "title": "Fedora Cosmic desktop Beta 一日游",
       "link": "https://blog.sotkg.com/2025/11/fedora-cosmic-beta",
       "published": "2025-11-13T12:00:00.000Z",
-      "updated": "2025-11-13T12:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "Cosmic Desktop Beta 1 已可在 Fedora 上日常“基本可用”，但细节仍显粗糙。Fedora 上官方仓库 dnf group install \"cosmic-desktop\" 即可与 KDE 双持；Fedora Cosmic Spin 版本旧、中文支持差，不推荐。中文输入目前仅 Fcitx5 可用，iBus 失效；开发者正重写输入法框架。"
     },
     {
@@ -63,7 +63,7 @@
       "title": "博客～真周年随笔（大概是一周年）",
       "link": "https://blog.sotkg.com/2025/11/blog-1th-note",
       "published": "2025-11-04T00:00:00.000Z",
-      "updated": "2025-11-04T00:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "2022 至今，作者 10 余次更换博客系统与域名，从 WordPress、Hexo、Mix Space 到最终定格 Nuxt 4 静态，并借备案、Galgame 与 Fediverse 长文实现稳定产出。文章梳理技术得失，自省“不忘初心”，立志继续以前端与运维学习为驱动力记录成长。"
     },
     {
@@ -71,7 +71,7 @@
       "title": "Waline-Mini 部署体验：基于 Rust 的 Waline 评论系统？",
       "link": "https://blog.sotkg.com/2025/10/rust-waline-deploy",
       "published": "2025-10-24T19:00:00.000Z",
-      "updated": "2025-10-24T19:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了作者因 GitHub 上的 waline-mini 项目而产生的惊喜与实测过程。作为一款使用 Rust 重写的 Waline 评论系统，waline-mini 据称内存占用仅为 Node.js 原版的 1/25（约 5.5MB）。文章记录了作者通过 Zeabur 平台使用 Docker 快速部署的体验：配置简洁、支持 SQLite、默认监听 8360 端口，首个注册账户即成为管理员。实测后台 UI 与原版高度一致，平均内存仅 3.48 MB，验证了 Rust 带来的极致轻量，适合对资源占用敏感的站点。"
     },
     {
@@ -79,7 +79,7 @@
       "title": "迟来的个人对《拔作岛》第一部游戏动漫杂谈",
       "link": "https://blog.sotkg.com/2025/10/nukitashi-gv-end",
       "published": "2025-10-24T18:00:00.000Z",
-      "updated": "2025-10-24T18:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了作者通关《拔作岛》第一部的完整体验与对比感受。作品以“童贞保卫战”为表，热血反权为里，四条女主线风格迥异：奈奈濑线甜虐交织却平淡收束；雏见线母子感拉满，结局圆满；美岬线脑洞炸裂，被戏称“离神最近”；文乃真女主线通宵燃爆。动画化出圈后大幅魔改，奈奈濑逆袭成最大赢家，游戏党先被“骗杀”后获慰藉，作者感叹 Qruppo 编剧精神状态成谜，并提醒云观众慎入。"
     },
     {
@@ -87,7 +87,7 @@
       "title": "OtterWiki 部署：基于 Python 的轻量知识库系统",
       "link": "https://blog.sotkg.com/2025/10/otterwiki-deploy",
       "published": "2025-10-24T14:00:00.000Z",
-      "updated": "2025-10-24T14:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了轻量级知识库系统 OtterWiki 的完整部署流程。系统基于 Python Flask 开发，采用 Markdown 语法，支持 Git 协议管理内容，最低仅需 100MiB 内存。部署步骤包括：使用一键脚本安装 Docker，通过官方仓库安装 Caddy 并配置自动 HTTPS 反向代理，创建专用目录后编写 docker-compose.yml 启动服务，默认监听 8080 端口。首次注册账户将自动获得管理员权限，适合资源有限的个人或小团队快速搭建私有 Wiki。"
     },
     {
@@ -95,7 +95,7 @@
       "title": "Misskey 部署：新一代联邦星际微博平台",
       "link": "https://blog.sotkg.com/2025/10/misskey-fediverse-deploy",
       "published": "2025-10-23T21:00:00.000Z",
-      "updated": "2025-10-23T21:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了如何在单台服务器上全量部署联邦宇宙社交平台 Misskey 及其配套组件。文章从准备阶段开始，建议使用至少 2 核 4G 的服务器，并强调部署后不可更换域名。接着详细说明了安装 Docker、Caddy 反向代理的步骤，包括自动 HTTPS 证书的申请与配置。然后逐步指导获取 Misskey 源码、配置数据库（PostgreSQL 与 Redis）、设置全文搜索（使用 sqlPgroonga）以及调整 Docker Compose 文件。最后，通过构建镜像、初始化数据库并启动容器，完成 Misskey 的部署，用户可通过域名访问初始化页面。"
     },
     {
@@ -103,7 +103,7 @@
       "title": "Affine 部署：自托管类 Notion 知识库系统",
       "link": "https://blog.sotkg.com/2025/10/affine-deploy",
       "published": "2025-10-22T21:00:00.000Z",
-      "updated": "2025-10-22T21:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了自托管知识库系统 Affine 的部署流程，涵盖其存储、CPU、内存等配置要求，并对比 Outline 指出其文档更清晰。文章采用 Docker Compose 方式部署，提供从安装 Docker、获取配置文件、修改环境变量到启动服务的完整步骤，适合希望搭建私有知识库的用户参考。"
     },
     {
@@ -111,7 +111,7 @@
       "title": "Lemmy 部署：Rust Fediverse 社区系统",
       "link": "https://blog.sotkg.com/2025/10/lemmy-fediverse-deploy",
       "published": "2025-10-21T22:00:00.000Z",
-      "updated": "2025-10-21T22:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了如何以Docker方式自建Fediverse实例Lemmy：先装Docker，拉取官方compose文件，替换域名、数据库密码与邮箱参数；按需调优PostgreSQL，修正挂载路径，赋权pictrs目录；启动后用Caddy/Nginx反代10633端口即可上线。文末给出升级命令与故障排查示例，助你轻松拥有Rust驱动、150 MB内存占用、贴吧般的去中心化社区。"
     },
     {
@@ -119,7 +119,7 @@
       "title": "大盘鸡做 NAS？FnOS 个人 VPS 部署体验",
       "link": "https://blog.sotkg.com/2025/10/fnos-vps-started",
       "published": "2025-10-20T21:00:00.000Z",
-      "updated": "2025-10-20T21:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了作者在大盘VPS上一键部署国产NAS系统FnOS的全过程，记录了借助飞牛影视、qBit、Ani RSS等套件实现动漫自动订阅、离线下载、多终端观影的完整链路，并分享了FnOS对低配置机器友好、自带公网穿透、图形化管理却暂不支持SSL绑定域名等优缺点，为想花小钱轻松搭建私人影视库的学生或懒人群体提供实操参考。"
     },
     {
@@ -127,7 +127,7 @@
       "title": "为 Clarity 主题增加 ResourceList 资源列表组件",
       "link": "https://blog.sotkg.com/2025/10/clarity-resource-list",
       "published": "2025-10-20T14:00:00.000Z",
-      "updated": "2025-10-20T14:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了为Clarity博客主题增加ResourceList资源列表组件的方法，提供了完整的Vue组件代码与使用语法，用于创建包含标题、链接、密码等信息的资源下载列表。"
     },
     {
@@ -143,7 +143,7 @@
       "title": "《痴情哥哥与病弱妹妹的乡间生活》 Steam 版在 Linux/Deck 下的运行问题修复",
       "link": "https://blog.sotkg.com/2025/06/sickly-days-linux-run",
       "published": "2025-06-21T21:30:00.000Z",
-      "updated": "2025-06-21T21:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "文章记录了《痴情哥哥与病弱妹妹的乡间生活》Steam版在Linux/SteamDeck因Krkr2引擎兼容失败而无法启动的问题。\n修复步骤：1.用Protontricks安装WMP9/11；2.把d2d1.dll补丁放进游戏根目录；3.在Steam启动项加WINEDLLOVERRIDES=\"d2d1.dll=n,b\" %command%。完成后游戏可正常运行。\n"
     },
     {
@@ -159,7 +159,7 @@
       "title": "Decky Loader——Linux下 Steamdeck 和大屏幕模式的最佳伴侣",
       "link": "https://blog.sotkg.com/2025/06/decky-loader",
       "published": "2025-06-07T21:30:00.000Z",
-      "updated": "2025-06-07T21:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了 Decky Loader 在 Linux/SteamDeck 下的两种快速安装法：官方一键脚本（含中文版）与 OhMyDeck 手动方案，并给出启用开发者模式、CEF 调试、设密码、开终端等关键步骤，手柄玩家即刻升级大屏体验。"
     },
     {
@@ -167,7 +167,7 @@
       "title": "更换网站字体为霞鹜文楷屏幕阅读版（LXGW WenKai Screen）",
       "link": "https://blog.sotkg.com/2025/05/lxgw-wenkai-web",
       "published": "2025-05-28T10:24:26.000Z",
-      "updated": "2025-05-28T10:24:26.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了如何为网站全局替换开源“霞鹜文楷”字体，记录从选字、CDN引入到CSS调用的完整流程，分享LXGW WenKai Screen版针对屏幕阅读优化的1.7.0样式文件与font-family写法，附赠Zstatic CDN链接与缓存清除技巧，一步到位实现中文楷体美化的同时保障加载速度。"
     },
     {
@@ -175,7 +175,7 @@
       "title": "《Clannad》HD 官方中文版和 Full Voice 汉化版 Linux 运行",
       "link": "https://blog.sotkg.com/2025/05/clannad-zh-linux",
       "published": "2025-05-26T09:00:00.000Z",
-      "updated": "2025-05-26T09:00:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了《Clannad》HD官方中文版与Full Voice汉化版在Linux下的运行方案；本文记录了使用Proton 9.0-4即可双版本完美启动的实测过程，并对比引擎差异及存档兼容性；本文分享了老Galgame在Linux平台零补丁畅玩的经验，为同人及正版补票玩家提供一站式兼容层设置指南。"
     },
     {
@@ -183,7 +183,7 @@
       "title": "《恋爱与选举与巧克力》携带版试玩体验",
       "link": "https://blog.sotkg.com/2025/05/koichoco-psp",
       "published": "2025-05-24T00:20:00.000Z",
-      "updated": "2025-05-24T00:20:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了《恋爱与选举与巧克力》PSP携带版的试玩亮点：新增可攻略角色枝川希美全程语音、30张新CG及细节演出；记录了PC高清重制版“暴力拉伸”导致的千里眼距崩坏在携带版得到修复，人物表情更丰富；分享了用PPSSPP在Steam Deck流畅运行、获取简体汉化ISO的完整方案，并附配置与资源指引，助你随时品味这部“真·最佳版本”校园恋爱佳作。"
     },
     {
@@ -191,7 +191,7 @@
       "title": "我又用了一段时间 Misskey，发现和 Sharkey 存在一些区别和不足",
       "link": "https://blog.sotkg.com/2025/05/shr-misskey",
       "published": "2025-05-22T03:30:00.000Z",
-      "updated": "2025-05-22T03:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文记录了作者重新体验 Misskey 后，相较 Sharkey 感受到的不足：缺少直接编辑、单帖私密化、注册审批；并列出 ListenBrainz 集成、Mastodon API 兼容、UI 风格等差异，倾向继续使用 Sharkey。"
     },
     {
@@ -199,7 +199,7 @@
       "title": "Misskey/Sharkey 工具栏：强大且精心的小功能",
       "link": "https://blog.sotkg.com/2025/05/misskey-sidebar",
       "published": "2025-05-20T03:30:00.000Z",
-      "updated": "2025-05-20T03:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文分享了 Misskey/Sharkey 侧边栏小工具的完整功能清单，涵盖便签、RSS、时钟、活动、服务器指标、AiScript 控制台等 30+ 组件，可自由拖拽、调高度、设透明，即刻把桌面版 Fediverse 变成你的个性化信息仪表盘。"
     },
     {
@@ -207,7 +207,7 @@
       "title": "浅谈个人与 Fediverse 的过往历史和现状",
       "link": "https://blog.sotkg.com/2025/05/fediverse",
       "published": "2025-05-20T00:30:00.000Z",
-      "updated": "2025-05-20T00:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了作者2023年踏入Fediverse的完整历程，从Firefish、纷语驿站到现居Sharkey实例Circlari；本文记录了Misskey、Firefish、Sharkey三大程序的特点与兴衰，并对比Mastodon生态；本文分享了联邦宇宙去中心化、低门槛、跨实例互通的优势，也坦言用户暴涨带来的治理挑战，为新人提供选型与避坑参考。"
     },
     {
@@ -215,7 +215,7 @@
       "title": "《爱上火车》在 Linux 下的视频播放修复",
       "link": "https://blog.sotkg.com/2025/05/maitetsu-video-fix",
       "published": "2025-05-19T10:30:00.000Z",
-      "updated": "2025-05-19T10:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了《爱上火车》Linux Proton 环境视频播放修复方案，记录从黑屏卡死到正常播放的排查过程，分享用 Protontricks 补 DirectShow+WMP9 的完整命令与 Flatseal 权限配置，提供 Arch/Flatpak 双安装路径与镜像加速技巧，一站式解决 Steam 中文版动画无法播放痛点，助力 Linux 玩家零切换畅玩 Galgame。"
     },
     {
@@ -223,7 +223,7 @@
       "title": "旮沓给木太好玩辣——2025年上半Gal历程个人总结",
       "link": "https://blog.sotkg.com/2025/05/gal-up",
       "published": "2025-05-18T16:30:00.000Z",
-      "updated": "2025-05-18T16:30:00.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了作者2025年上半年7部Galgame入坑之旅：以《爱上火车Last Run!!》打开大门，继通关《苍之彼方的四重奏》《魔女的夜宴》《恋爱与选举与巧克力》《拔作岛》后，终被《Summer Pockets REFLECTION BLUE》封神；本文记录了各作剧情亮点、系统特色与角色喜好，并分享了“纯爱、一次性通线、戴耳机追求沉浸”的个人游玩准则，为同好提供参考。"
     },
     {
@@ -231,7 +231,7 @@
       "title": "为了一碟醋包了一盘饺子：构建和提交Kazumi AUR包",
       "link": "https://blog.sotkg.com/2025/01/arch-aur-kazumi",
       "published": "2025-01-24T10:24:26.000Z",
-      "updated": "2025-01-24T10:24:26.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了作者为 Flutter 番剧采集器 Kazumi 全新打包并提交 AUR 的全过程；本文记录了从痛点分析、PKGBUILD 编写到 GPG 密钥配置、PR 合并的首次打包细节；本文分享了在 Arch KDE 环境避开 Flathub 臃肿依赖、一键 `yay -S kazumi` 装机的实用方案，方便同好快速享受弹幕追番。"
     },
     {
@@ -239,7 +239,7 @@
       "title": "破坏型迁移：站点反复横跳与稳定工作",
       "link": "https://blog.sotkg.com/2024/12/break-change-2024",
       "published": "2024-12-07T10:24:26.000Z",
-      "updated": "2024-12-07T10:24:26.000Z",
+      "updated": "Invalid Date",
       "summary": "本文记录了博主 PaloMiku 将站点整体迁移至 blog 子域名、丢弃评论与旧文、改用 Huawei Cloud EulerOS 的全过程；本文分享了“破坏型迁移”背后的动机——架构试错、域名续费到 2026-09、服务器同步续费至 2026-12，从而锁定近两年零意外停机；本文承诺在 2026 年 9 月 18 日前不再变动域名与服务器，为读者提供可预期的长期稳定访问。"
     },
     {
@@ -247,7 +247,7 @@
       "title": "为Oyiso主题引入TianliGPT摘要",
       "link": "https://blog.sotkg.com/2024/12/oyiso-tianligpt",
       "published": "2024-12-07T10:24:26.000Z",
-      "updated": "2024-12-07T10:24:26.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了如何为 WordPress Oyiso 主题一键接入 TianliGPT 智能摘要；本文记录了从安装 PostChat 插件、配置 Key，到插入前端代码、关闭对话浮窗的完整流程；让文章页自动生成摘要，无需人工干预，兼容大陆网络，提升阅读体验与 SEO。"
     },
     {
@@ -263,7 +263,7 @@
       "title": "编写1Panel应用商店第三方程序",
       "link": "https://blog.sotkg.com/2024/10/write-1panel-app",
       "published": "2024-10-17T11:24:26.000Z",
-      "updated": "2024-10-17T11:24:26.000Z",
+      "updated": "Invalid Date",
       "summary": "本文介绍了如何为 1Panel 服务器面板编写并提交自定义应用包；本文记录了从目录结构、Logo、应用声明文件、版本参数表单，到符合规范的 docker-compose.yml 与本地测试的完整流程；本文分享了避开官方高门槛、直接 PR 第三方商店仓库的快捷路线，帮助读者把任意已容器化的开源项目一键搬进 1Panel 应用商店，实现图形化秒装。"
     },
     {
