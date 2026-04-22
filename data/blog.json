@@ -1,6 +1,6 @@
 {
   "feedUrl": "https://blog.sotkg.com/atom.xml",
-  "updatedAt": "2026-04-21T01:19:26.654Z",
+  "updatedAt": "2026-04-22T01:18:05.105Z",
   "entries": [
     {
       "id": "https://blog.sotkg.com/2026/03/noctalia-plugin-process-reporter",
@@ -305,6 +305,19 @@
       "published": "2024-03-07T11:24:26Z",
       "updated": "2024-03-08T15:30:53Z",
       "summary": "本文记录了作者于2022年暑假因B站一条“西片太太开车预警”视频入坑《擅长捉弄的高木同学》，先追第二季再补第一季，瞬间被高糖日常俘获的草率契机；分享了随后潜行高木QQ频道、不满百度网盘限速、自学建站并于2022年10月上线直链资源站，又在网友牧丰帮助下完成初期搬运的幕后故事；同时回顾2023年末牵头成立“木创社”GitHub组织，共建高木Wiki与Fan社区，结识南栀、WaterApple、Ice Year等伙伴的快乐时光；最后借Ice Year《君と光》一文，感慨漫画于2023年10月12日完结后“一期一会”的珍贵，铭记“只要映出与你共度的光”便足够温暖。"
+    },
+    {
+      "id": "https://blog.sotkg.com/2026/03/noctalia-plugin-linuxwallpaperengine",
+      "title": "Noctalia Plugin Linuxwallpaperengine",
+      "link": "https://blog.sotkg.com/2026/03/noctalia-plugin-linuxwallpaperengine",
+      "published": null,
+      "updated": null,
+      "summary": {
+        "_": "\n        <a class=\"view-full\" href=\"https://blog.sotkg.com/2026/03/noctalia-plugin-linuxwallpaperengine\" target=\"_blank\">点击查看全文</a>\n    ",
+        "$": {
+          "type": "html"
+        }
+      }
     }
   ]
 }
